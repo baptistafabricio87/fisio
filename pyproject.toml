@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fisio"
+version = "0.1.0"
+description = ""
+authors = ["Fabricio Castro <baptistafabricio87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.5"
+djangorestframework = "^3.14.0"
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
